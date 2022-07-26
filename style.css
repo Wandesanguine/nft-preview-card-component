@@ -11,19 +11,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}/*
 img{
     max-width:300px;
     border-radius:8px;
-}
+}*/
 .container .main-image{
     position: relative;
     cursor: pointer;
 }
+.container .main-image img{
+    max-width:300px;
+    border-radius:8px;
+}
 .container .main-image div{
     position: absolute;
     background-color:  hsl(178, 100%, 50%, 75%);
-    width: 300px;
+    min-width: 300px;
     height:300px;
     top: 0;
     z-index: 999;
